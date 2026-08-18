@@ -1,4 +1,4 @@
-# Marginalia — Notes Application
+ Notes Application
 
 A digital notebook for writing, organising, and searching personal notes. Notes are kept in the browser's Local Storage so they persist between visits.
 
