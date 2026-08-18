@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>My To-Do List</h1>
+
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Enter a task..." maxlength="120" autocomplete="off">
+        <button type="submit" id="addButton">Add</button>
+      </form>
+      <div class="error" id="errorMsg"></div>
+
+      <div class="stats">
+        <span><b id="countTotal">0</b> total</span>
+        <span><b id="countDone">0</b> completed</span>
+        <span><b id="countOpen">0</b> open</span>
+      </div>
+
+      <ul id="tasklist"></ul>
+      <div class="empty" id="emptyState">Nothing here yet. Add your first task above.</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
